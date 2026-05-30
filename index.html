@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehreen's Kitchen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            padding-top: 56px; 
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4') no-repeat center center/cover;
+            height: 90vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            text-shadow: 3px 3px 10px black;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mehreen's Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section" id="home">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Welcome to Mehreen's Kitchen</h1>
+            <p class="lead">Ghar Jaisa Zaiqa, Maa Jaisi Mohabbat</p>
+            <a href="#menu" class="btn btn-warning btn-lg">View Menu</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" class="img-fluid rounded" alt="Restaurant">
+                </div>
+                <div class="col-md-6">
+                    <h3>Serving Since 2020</h3>
+                    <p>Mehreen's Kitchen me har recipe meri nani ki diary se hai. Ye sirf khana nahi, meri family ki mohabbat hai jo mai har plate me daal kar deti hun. Taazay masalay, asli ghee ka tarka, aur wo zaiqa jo apko apne ghar ki yaad dila de. Biryani aur Karahi to bas bahana hai, asli maqsad apke chehre par muskurahat lana hai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+       <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Special Menu</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8" class="card-img-top" alt="Biryani">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chicken Biryani</h5>
+                            <p class="card-text">Nawabon wala zaiqa, asli basmati ka chawal.</p>
+                            <p class="fw-bold">Rs. 450</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe" class="card-img-top" alt="Karahi">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chicken Karahi</h5>
+                            <p class="card-text">Mitti ki handi me bana, mirchon ka asli maza.</p>
+                            <p class="fw-bold">Rs. 1200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468" class="card-img-top" alt="BBQ">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">BBQ Platter</h5>
+                            <p class="card-text">Seekh, Tikka, Boti - sab kuch ek plate me.</p>
+                            <p class="fw-bold">Rs. 1500</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <p><strong>Address:</strong> Model Town A, Bahawalpur</p>
+                    <p><strong>Phone:</strong> 0300-1234567</p>
+                    <p><strong>Email:</strong> mehreenriaz1532@gmail.com</p>
+                    <p><strong>Timings:</strong> 12 PM - 12 AM Daily</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2026 Mehreen's Kitchen | Made with ❤️ by Mehreen Riaz</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
